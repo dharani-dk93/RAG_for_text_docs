@@ -8,7 +8,7 @@ os.makedirs("data", exist_ok=True)
 from langchain_community.document_loaders import TextLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 
-loader = TextLoader("data/About_Ai.txt")
+loader = TextLoader("data/About_AI.txt")
 docs = loader.load()
 
 splitter = RecursiveCharacterTextSplitter(chunk_size=300, chunk_overlap=50)
