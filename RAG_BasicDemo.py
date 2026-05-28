@@ -60,5 +60,5 @@ Answer:
     answer = raw.replace(prompt_text, "").strip()
     return answer
 
-response = rag_chain("What is Karthik's Show?")
+response = rag_chain("What is AI?")
 print(response)
